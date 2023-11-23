@@ -1,12 +1,30 @@
-body{
-    background-color: black;
-    font-size: 34px;
-    font-family: 'Times New Roman', Times, serif;
-    
+.container,
+.body-box{
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1,
-p {
-    margin: auto;
-    color: white;
+.body-box{
+    background-color: #ff8842;
+
+}
+.container{
+    width: 300px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #b0685d;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #ffff;
+}
+.button{
     text-align: center;
 }
+body{
+    display: inline;
+}
+
+
